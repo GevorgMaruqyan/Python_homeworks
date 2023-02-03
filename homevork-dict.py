@@ -1,4 +1,3 @@
-
 # 1.Write a Python program to sort a dictionary by value.---------------------
 
 # mydict = {
@@ -157,22 +156,22 @@
 
 # 7.New_dicT------------------------------------------------------------
 
-ls1 = []
-ls2 = []
-ls3 = {} 
-s = 'a,2,b,5,c,8,a,4,e,11'
-s = s.split(',')
-for i in s:
-    if i.isalpha():
-        ls1.append(i)
-    elif i.isdigit():
-        ls2.append(int(i))
-for i, j in zip(ls1, ls2):
-    if i in ls3:
-        ls3[i] += j
-    else:
-        ls3[i] = j
-print(ls3)
+# ls1 = []
+# ls2 = []
+# ls3 = {} 
+# s = 'a,2,b,5,c,8,a,4,e,11'
+# s = s.split(',')
+# for i in s:
+#     if i.isalpha():
+#         ls1.append(i)
+#     elif i.isdigit():
+#         ls2.append(int(i))
+# for i, j in zip(ls1, ls2):
+#     if i in ls3:
+#         ls3[i] += j
+#     else:
+#         ls3[i] = j
+# print(ls3)
 
 # 8.DicT frOm A sTrinG-----------------------------------------------------
 
@@ -284,4 +283,3 @@ print(ls3)
 #     if j in morze:
 #         res += morze[j]
 # print(res)
-
